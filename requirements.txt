@@ -1,0 +1,31 @@
+# Core
+anthropic>=0.40
+streamlit>=1.38
+python-dotenv>=1.0
+numpy>=1.26
+
+# PDF extraction (text, tables, links, images, attachments)
+pymupdf>=1.24
+
+# Vector store + multilingual embeddings
+faiss-cpu>=1.8
+sentence-transformers>=3.0
+
+# URL scraping
+requests>=2.31
+trafilatura>=1.12
+playwright>=1.45
+yt-dlp>=2024.8.6
+truststore>=0.9          
+
+# use the Windows certificate store (fixes many .gov.in SSL errors)
+
+# OCR (also needs the Tesseract program with Tamil language pack — see README)
+pytesseract>=0.3.10
+Pillow>=10.0
+
+# Observability (optional - tracing is off unless LANGSMITH_TRACING=true)
+langsmith>=0.2
+
+# Audio / video transcription (reads mp3/mp4/etc. directly, no torch needed)
+faster-whisper>=1.0
